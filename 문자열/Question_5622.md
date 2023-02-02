@@ -1,5 +1,6 @@
 ## Question 5622
 
+multiple methods can be used
 
 ```python 3
 num = input()
