@@ -11,7 +11,7 @@ for i in range(T):
     for l in range(k):  # 층 수 만큼 반복
         for m in range(1,n): # 1 ~ n-1까지 (인덱스로 사용)
             base[m]+=base[m-1] # 층별 각 호실의 사람 수를 변경
-    print(base[n-1])
+    print(base[n-1]) #가장 마지막 호수 value 출력
 
 ```
 
