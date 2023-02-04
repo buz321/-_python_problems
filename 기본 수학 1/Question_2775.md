@@ -2,15 +2,15 @@
 
 
 ```python 3
-T=int(input())
+T=int(input()) # Test Case
 
 for i in range(T):
-    k=int(input())
-    n=int(input())
-    base=[j for j in range(1,n+1)]
-    for l in range(k):
-        for m in range(1,n):
-            base[m]+=base[m-1]
+    k=int(input()) #층
+    n=int(input()) #호수
+    base=[j for j in range(1,n+1)] # 0층 리스트
+    for l in range(k):  # 층 수 만큼 반복
+        for m in range(1,n): # 1 ~ n-1까지 (인덱스로 사용)
+            base[m]+=base[m-1] # 층별 각 호실의 사람 수를 변경
     print(base[n-1])
 
 ```
