@@ -3,8 +3,8 @@
 
 ```python 3
 a,b,v = map(int,input().split())
-k = (v-b)/(a-b)
-print(int(k) if k == int(k) else int(k)+1) # 분수인경우 +1
+k = (v-b)/(a-b) # ak + (-b)(k-1) = v, a는 올라가는 수 +, b는 내려가는 수 -
+print(int(k) if k == int(k) else int(k)+1) # 분수인경우 +1 (올림) = 층을 나타내야 함으로
 
 ```
 
