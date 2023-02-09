@@ -7,7 +7,7 @@ numbers = map(int, input().split(' '))
 sosu = 0
 for num in numbers:
     cnt = 0 # 에러 카운트
-    if num == 1 : # 만약 숫자가 1이면 소수가 아님으로 패스
+    if num == 1 : # 만약 숫자가 1이면 소수가 아니므로 패스
           continue
     
     for i in range(2, num + 1):  # 2부터 n-1까지 이중 포문
