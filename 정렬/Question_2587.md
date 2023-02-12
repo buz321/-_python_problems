@@ -5,7 +5,7 @@
 nayeol = [] # 나열 리스트 생성
 for i in range(5): # 포문을 활용하여
     nayeol.append(int(input())) # 리스트에 숫자 저장
-nayeol.sort()
+nayeol.sort() # 리스트 정리
 print(int(sum(nayeol)/5)) # 전체 합계에서 전체 갯수로 나눔
 print(nayeol[2]) # 중간에 있는 값 (리스트 0,1,2,3,4)
 
