@@ -8,10 +8,7 @@ N = int(input())
 nayeol = []
 for i in range(N):
     nayeol.append(int(sys.stdin.readline())) #시간제한 때문에 input() 사용 불가능 = 느려서
-# input() 내장 함수는 sys.stdin.readline()과 비교해서 prompt message를 출력하고,
-
-개행 문자를 삭제한 값을 리턴하기 때문에 느리다.
-
+# input() 내장 함수는 sys.stdin.readline()과 비교해서 prompt message를 출력하고, 개행 문자를 삭제한 값을 리턴하기 때문에 느리다.
 
 nayeol.sort()
 
