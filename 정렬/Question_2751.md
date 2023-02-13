@@ -1,5 +1,7 @@
 ## Question 2751
 
+* 2750 과 비슷한 문제 하지만 제한시간이 더 짧다....
+
 
 ```python 3
 import sys
