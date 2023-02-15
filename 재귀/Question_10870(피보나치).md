@@ -1,4 +1,4 @@
-## Question 10870
+## Question 10870 (피보나치)
 
 
 1번째 방법 = for loop
