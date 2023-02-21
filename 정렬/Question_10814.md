@@ -2,12 +2,12 @@
 
 
 ```python 3
-import sys
+import sys 
 N=int(sys.stdin.readline()) #input() 대신
 
 li=[] # 리스트 설정
 
-for i in range (N): 
+for i in range (N): # range로 순서대로 설정
   a,b = map(str,sys.stdin.readline().split()) 
   li.append([int(a), b]) # a= 나이 정수로 받음
 
