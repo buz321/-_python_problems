@@ -17,7 +17,7 @@ for _ in range(M):
 C = [[0 for _ in range(K)] for _ in range(N)]
 
 for n in range(N):
-    for k in range(K):
+    for k in range(K): # N과 K에 대해 이중 for문을 돌면서, 벡터의 크기 M만큼 for 돌면서 행벡터와 열벡터의 각 요소 곱의 더하기 값을 구해주고 결과 행렬에(2차원 리스트) 넣음
         for m in range(M):
             C[n][k] += A[n][m] * B[m][k] # N*K 곱하기 M*K = N*K 구현
 
