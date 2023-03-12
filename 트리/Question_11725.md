@@ -7,9 +7,6 @@ import sys
 # 자기 호출 개수 제한
 sys.setrecursionlimit(10**6)
 
-# 테스트용 파일("input.txt") 읽기
-# sys.stdin = open("input.txt", "r")
-
 # 주어진 파일을 한 줄씩 입력
 input = sys.stdin.readline # 편하게 쓰기위해 input 으로 설정
 
