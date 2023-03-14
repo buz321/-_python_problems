@@ -13,21 +13,21 @@ for n in range(N):
  
  
 def preorder(root): # 전위 순회
-    if root != '.':
+    if root != '.': # 없으면
         print(root, end='')  # root
         preorder(tree[root][0])  # left
         preorder(tree[root][1])  # right
  
  
 def inorder(root): # 중위 순회
-    if root != '.':
+    if root != '.': # 없으면
         inorder(tree[root][0])  # left
         print(root, end='')  # root
         inorder(tree[root][1])  # right
  
  
 def postorder(root): # 후위 순회
-    if root != '.':
+    if root != '.': #없으면
         postorder(tree[root][0])  # left
         postorder(tree[root][1])  # right
         print(root, end='')  # root
