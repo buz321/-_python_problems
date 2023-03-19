@@ -35,6 +35,8 @@ while q: # while 문
 print(*ans, sep=" ")
 
 ```
+* 전형적인 위상 정렬 문제
+* 조금 더 파고 들 필요 있
 * 위상 정렬 알고리즘 참고: https://terms.naver.com/entry.naver?docId=3579618&cid=59086&categoryId=59093
 
 ### Example:
