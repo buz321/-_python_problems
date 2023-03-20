@@ -1,4 +1,4 @@
-## Question 10807
+## Question 4948 베르트랑 공준
 
 
 ```python 3
@@ -30,6 +30,7 @@ while True:
     print(count)  #count 값 출력
 ```
 
+* 네이버 수학 백과 참고: https://terms.naver.com/entry.naver?docId=5669298&cid=60207&categoryId=60207
 
 ### Example:
 <img width="1208" alt="스크린샷 2023-03-21 오전 5 05 37" src="https://user-images.githubusercontent.com/107760647/226453450-c5c4c3ef-2fb4-4121-a2fe-ff5bc4ca3230.png">
