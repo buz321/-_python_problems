@@ -7,7 +7,7 @@ import math
 m = 123456 # m의 범위의 최댓값
 
 array1 = [True for _ in range(2 * m + 1)] #소수 판별을 위한 리스트설정(True면 소수)
-array1[0], array1[1] = False, False #0,1은 소수가 아니기에 False로 설정
+array1[0], array1[1] = False, False #0,1은 소수가 아니기에 False로 설정 = 리스트로 표기
 
 # 에라토스테네스의 체 공식
 for i in range(2, int(math.sqrt(2 * m) + 1)): #2부터 int(math.sqrt(2 * 123456) 까지 돈다.
